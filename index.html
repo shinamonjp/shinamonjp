@@ -4,13 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>合同会社シナモン（Shinamon LLC）</title>
-  <meta name="description" content="合同会社シナモン（Shinamon LLC）の会社概要。Web3 Consulting & Strategic Advisory。" />
-  <link rel="icon" href="assets/logo.png" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="合同会社シナモン（Shinamon LLC）— Web3コンサルティング & 戦略アドバイザリー。暗号資産・ブロックチェーン領域の事業開発からマーケティング、グローバル展開まで一気通貫で支援します。" />
   <meta name="theme-color" content="#F99514" />
 
   <!-- SEO / Social -->
-  <meta name="description" content="Web3 Consulting &amp; Strategic Advisory" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="合同会社シナモン | Shinamon LLC" />
   <meta property="og:description" content="Web3 Consulting &amp; Strategic Advisory" />
@@ -26,78 +23,191 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="icon" href="/favicon.ico" />
-  <meta name="theme-color" content="#F99514" />
 
+  <!-- Google Fonts: Noto Sans JP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="header">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
     <div class="container header-inner">
       <a class="brand" href="./">
-        <img src="assets/logo.png" alt="Shinamon" width="34" height="34" loading="eager" />
+        <img src="assets/logo.png" alt="Shinamon" width="36" height="36" loading="eager" />
         <span class="name">合同会社シナモン</span>
       </a>
+      <nav class="header-nav" aria-label="Main">
+        <a href="#services">事業内容</a>
+        <a href="#company">会社概要</a>
+        <a href="#contact">お問い合わせ</a>
+      </nav>
     </div>
   </header>
 
-  <main class="main">
-    <div class="container">
-      <section class="hero" aria-label="Hero">
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero" aria-label="Hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-glow hero-glow--1"></div>
+        <div class="hero-glow hero-glow--2"></div>
+      </div>
+
+      <div class="hero-content">
+        <img class="hero-logo" src="assets/logo.png" alt="Shinamon" width="120" height="120" />
         <h1>合同会社シナモン</h1>
-        <div class="subjp">Shinamon LLC</div>
-        <div class="rule" aria-hidden="true"></div>
-        <div class="tagline">Web3 Consulting &amp; Strategic Advisory</div>
-      </section>
+        <div class="hero-subtitle">Shinamon LLC</div>
+        <p class="hero-tagline">
+          Web3領域の事業開発・戦略コンサルティングを通じて、<br />
+          クライアントのビジョンを世界に実装する。
+        </p>
+      </div>
 
-      <section class="section" aria-label="Services">
-        <h2>事業内容</h2>
-        <ul class="bullets">
-          <li>Web3事業開発・戦略コンサルティング</li>
-          <li>マーケティング戦略設計・実行支援</li>
-          <li>暗号資産・ブロックチェーン領域のアドバイザリー</li>
-          <li>グローバル展開支援</li>
-          <li>リサーチ・事業企画支援</li>
-          <li>Webアプリケーション開発</li>
-        </ul>
-      </section>
+      <div class="hero-scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero-scroll-line"></div>
+      </div>
+    </section>
 
-      <section class="section" aria-label="Company">
-        <h2>会社概要</h2>
-        <div class="card">
+
+    <!-- ===== SERVICES ===== -->
+    <section class="section" id="services" aria-label="Services">
+      <div class="container">
+        <div class="section-header fade-up">
+          <div class="section-label">Services</div>
+          <h2 class="section-title">事業内容</h2>
+          <p class="section-desc">
+            Web3・ブロックチェーン領域を軸に、戦略策定から実行まで包括的に支援します。
+          </p>
+        </div>
+
+        <div class="services-grid stagger">
+
+          <!-- Card 1 -->
+          <div class="service-card fade-up">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>Web3事業開発・<br>戦略コンサルティング</h3>
+            <p>ブロックチェーン技術を活用した新規事業の立ち上げから成長戦略の策定まで、事業フェーズに応じたコンサルティングを提供します。</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="service-card fade-up">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+            </div>
+            <h3>マーケティング戦略<br>設計・実行支援</h3>
+            <p>ターゲット分析からチャネル設計、KPI設定、運用改善まで。デジタルマーケティングの全プロセスを一気通貫で伴走します。</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="service-card fade-up">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+            </div>
+            <h3>暗号資産・ブロックチェーン<br>アドバイザリー</h3>
+            <p>トークン設計、ウォレット戦略、規制対応など、暗号資産・ブロックチェーン領域の専門知見に基づくアドバイザリーサービスを提供します。</p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="service-card fade-up">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M22 2L11 13"/><path d="M22 2L15 22l-4-9-9-4 20-7z"/></svg>
+            </div>
+            <h3>グローバル展開支援</h3>
+            <p>海外市場への参入戦略、ローカライゼーション、パートナーシップ構築を支援。クロスボーダーでのビジネス展開をサポートします。</p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="service-card fade-up">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>
+            </div>
+            <h3>リサーチ・<br>事業企画支援</h3>
+            <p>市場調査、競合分析、トレンドリサーチを通じて事業企画のための意思決定を支える情報と洞察を提供します。</p>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="service-card fade-up">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M16 18l6-6-6-6"/><path d="M8 6l-6 6 6 6"/><path d="M14.5 4l-5 16"/></svg>
+            </div>
+            <h3>Webアプリケーション<br>開発</h3>
+            <p>フロントエンドからバックエンドまで、モダンな技術スタックを活用したWebアプリケーションの設計・開発を行います。</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <div class="container"><div class="section-divider"></div></div>
+
+
+    <!-- ===== COMPANY ===== -->
+    <section class="section company-section" id="company" aria-label="Company">
+      <div class="container">
+        <div class="section-header fade-up">
+          <div class="section-label">Company</div>
+          <h2 class="section-title">会社概要</h2>
+        </div>
+
+        <div class="company-card fade-up">
           <dl class="kv">
-            <dt>会社名</dt>
-            <dd>合同会社シナモン（Shinamon LLC）</dd>
-
-            <dt>代表者</dt>
-            <dd>呉 永昶</dd>
-
-            <dt>設立</dt>
-            <dd>2025年4月</dd>
-
-            <dt>所在地</dt>
-            <dd>
-              東京都渋谷区道玄坂1丁目10番8号<br />
-              渋谷道玄坂東急ビル2F-C
-            </dd>
-
-            <dt>事業内容</dt>
-            <dd>Web3コンサルティング / 事業戦略アドバイザリー / マーケティング支援 / Webアプリケーション開発</dd>
-
-            <dt>連絡先</dt>
-            <dd><span data-email>contact<!-- anti-scrape -->@<!-- anti-scrape -->shinamon.jp</span></dd>
-
+            <div class="kv-row">
+              <dt>会社名</dt>
+              <dd>合同会社シナモン（Shinamon LLC）</dd>
+            </div>
+            <div class="kv-row">
+              <dt>代表者</dt>
+              <dd>呉 永昶</dd>
+            </div>
+            <div class="kv-row">
+              <dt>設立</dt>
+              <dd>2025年4月</dd>
+            </div>
+            <div class="kv-row">
+              <dt>所在地</dt>
+              <dd>
+                東京都渋谷区道玄坂1丁目10番8号<br />
+                渋谷道玄坂東急ビル2F-C
+              </dd>
+            </div>
+            <div class="kv-row">
+              <dt>事業内容</dt>
+              <dd>Web3コンサルティング / 事業戦略アドバイザリー / マーケティング支援 / Webアプリケーション開発</dd>
+            </div>
+            <div class="kv-row" id="contact">
+              <dt>連絡先</dt>
+              <dd><span data-email>contact<!-- anti-scrape -->@<!-- anti-scrape -->shinamon.jp</span></dd>
+            </div>
           </dl>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <footer class="footer">
-        <div class="container footer-inner">
-          <a class="footer-link" href="privacy.html">Privacy Policy</a>
-          <span class="sep" aria-hidden="true">|</span>
-          <span>© Shinamon LLC</span>
-        </div>
-      </footer>
-    </div>
   </main>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Shinamon" width="28" height="28" />
+        <span>合同会社シナモン</span>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+      <div class="footer-copy">© 2025 Shinamon LLC. All rights reserved.</div>
+    </div>
+  </footer>
 
   <script src="main.js" defer></script>
 </body>
